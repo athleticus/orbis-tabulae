@@ -1,0 +1,32 @@
+{
+  "name": "orbis-tabulae",
+  "version": "0.0.1",
+  "description": "Tools to facilitate the marking of maps for Orbis.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athleticus/orbis-tabulae.git"
+  },
+  "author": "Ben Martin <ben@benmartinstudios.com> (http://benmartinstudios.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/athleticus/orbis-tabulae/issues"
+  },
+  "homepage": "https://github.com/athleticus/orbis-tabulae#readme",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "glob": "7.1.1",
+    "html-webpack-plugin": "2.28.0",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "1.16.3",
+    "css-loader": "0.26.1",
+    "file-loader": "0.10.0",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "2.2.1"
+  }
+}
