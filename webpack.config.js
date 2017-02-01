@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const glob = require("glob");
 const path = require('path');
 
@@ -109,6 +110,9 @@ module.exports = {
         ]
     },
     plugins: [
-        ...htmlFiles
+        ...htmlFiles,
+        new CopyWebpackPlugin([
+            { from: './assets' }
+        ])
     ]
 };
